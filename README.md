@@ -86,5 +86,3 @@ Itâ€™s important in your project, to use the AirBnB API with the port 5001
 
 ![](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png)
 
-
-
