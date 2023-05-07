@@ -83,6 +83,7 @@ In your Vagrantfile, add this line for each port forwarded
 config.vm.network :forwarded_port, guest: 5001, host: 5001 
 ```
 if you need to expose other ports, same line but you will need to replace the "guest port" (inside your vagrant) and your "host port" (outside your vagrant, used from your browser for example)
+
 It's important in your project, to use the AirBnB API with the port 5001
 
 ![](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png)
