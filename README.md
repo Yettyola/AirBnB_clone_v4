@@ -77,11 +77,11 @@ No module named 'pathlib2'
 
 Expose ports from your Vagrant
 In your Vagrantfile, add this line for each port forwarded
-
+```
 # I expose the port 5001 of my vm to the port 5001 on my computer
 config.vm.network :forwarded_port, guest: 5001, host: 5001 
-if you need to expose other ports, same line but you will need to replace the â€œguest portâ€ (inside your vagrant) and your â€œhost portâ€ (outside your vagrant, used from your browser for example)
-
-Itâ€™s important in your project, to use the AirBnB API with the port 5001
+```
+if you need to expose other ports, same line but you will need to replace the "guest port" (inside your vagrant) and your "host port" (outside your vagrant, used from your browser for example)
+It's important in your project, to use the AirBnB API with the port 5001
 
 ![](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png)
