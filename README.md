@@ -77,6 +77,7 @@ No module named 'pathlib2'
 
 Expose ports from your Vagrant
 In your Vagrantfile, add this line for each port forwarded
+
 ```
 # I expose the port 5001 of my vm to the port 5001 on my computer
 config.vm.network :forwarded_port, guest: 5001, host: 5001 
